@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <item name="actionOverflowMenuStyle">@style/LYJMenuStyle</item>
+    </style>
+    <style name="LYJMenuStyle" parent="@style/Widget.AppCompat.Light.PopupMenu.Overflow">
+        <!--可以看到该属性 overlap：重叠 Anchor：描-->
+        <item name="overlapAnchor">false</item>
+        <!-- 这个就是背景颜色了-->
+        <!--
+                <item name="android:popupBackground">?attr/colorPrimary</item>
+        -->     <!--弹出菜单与标题栏的垂直间距-->
+        <item name="android:dropDownVerticalOffset">5dp</item>
+    </style>
+</resources>
